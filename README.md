@@ -1,2 +1,3 @@
 # ESP_Dashboard
-A web application that can display info and control an ESP32.
+A web application that contains a React Frontend and a Fastify Backend. 
+
