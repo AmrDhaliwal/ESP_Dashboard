@@ -1,4 +1,15 @@
-﻿[*.cs]
+root = true
 
-# CS8600: Converting null literal or possible null value to non-nullable type.
-dotnet_diagnostic.CS8600.severity = silent
+[*]
+charset = utf-8
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+insert_final_newline = false
+trim_trailing_whitespace = false
+
+[*.{js,json,ts,yml,yaml}]
+indent_size = 2
+indent_style = space
